@@ -1,0 +1,47 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+  }
+  
+  /* Button with smooth transition */
+  .color-btn {
+    padding: 10px 20px;
+    background-color: steelblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .color-btn:hover {
+    background-color: darkblue;
+  }
+  
+  /* Box styles */
+  .box {
+    width: 100px;
+    height: 100px;
+    margin: 30px auto;
+    background-color: coral;
+    position: relative;
+  }
+  
+  /* Animation using keyframes */
+  @keyframes slideRight {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: 200px;
+    }
+  }
+  
+  /* Class added dynamically via JS */
+  .animate {
+    animation: slideRight 1s forwards;
+  }
+  

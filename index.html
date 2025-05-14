@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS3 and JS Animations</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Welcome!</h1>
+
+  <!-- Color input to save preference -->
+  <label for="colorInput">Choose your favorite color:</label>
+  <input type="color" id="colorInput">
+  <button onclick="saveColor()" class="color-btn">Save Color</button>
+
+  <!-- Animated Box -->
+  <div class="box" id="animatedBox"></div>
+
+  <!-- Button to start animation -->
+  <button onclick="startAnimation()" class="color-btn">Animate Box</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
